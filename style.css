@@ -29,3 +29,42 @@
 #sp{
     background-color: rgb(143, 75, 75);
 }
+#result{
+    width: 251px; 
+    margin-left: 17px; 
+}
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .row{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #col4{
+        display: none;
+    }
+    #colom{
+        margin: 0;
+        padding: 0;
+        width: 280px;
+    }
+    .bttn button{
+        width: 55px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 2.5px;
+    }
+    #eq{
+        width: 111.5px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 2.5px;
+    }
+    #result{
+        width: 235px;
+        margin-left: 22px; 
+    }
+}

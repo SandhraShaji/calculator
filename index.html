@@ -12,10 +12,10 @@
 </head>
 <body>
     <div class="row m-5">
-        <div class="col-4"></div>
+        <div class="col-4" id="col4"></div>
         <div id="colom" class="col-4 text-center border border-1 border-dark rounded-4 py-3 ms-5 mt-3">
             <h2 style="color: rgb(235, 234, 234);" class="my-3">Calculator</h2>
-            <input id="result" style="width: 251px; margin-left: 17px; background-color: rgb(195, 225, 195); color: black;" placeholder="Enter" class="form-control border border-1 border-dark" type="text"><br>
+            <input id="result" style="background-color: rgb(195, 225, 195); color: black;" placeholder="Enter" class="form-control border border-1 border-dark" type="text"><br>
             <div class="bttn mb-3">
                 <button onclick="clearText()" id="sp">AC</button><button id="sp" onclick="removeLastChar()"><i class="fa-solid fa-delete-left" style="color: #ffffff;"></i></button><button id="spp" onclick="displayNumber('%')">%</button><button id="spp" onclick="displayNumber('/')">&#247;</button><br>
                 <button onclick="displayNumber(7)">7</button><button onclick="displayNumber(8)">8</button><button onclick="displayNumber(9)">9</button><button id="spp" onclick="displayNumber('*')">x</button><br>
@@ -24,7 +24,7 @@
                 <button onclick="displayNumber('.')">.</button><button onclick="displayNumber(0)">0</button><button id="eq" onclick="evaluateExpression()">=</button>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-4" id="col4"></div>
     </div>
 </body>
 </html>
